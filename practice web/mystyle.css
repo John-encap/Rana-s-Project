@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.mybox1{
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(30deg ,rgb(0, 195, 255), rgb(255, 0, 191));
+    padding-top: 10vh;
+
+
+}
+
+.mybox2{
+    height: 80vh;
+    width: 400px;
+    background-color: white ;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #2724243a;
+    padding-top: 8px;
+    
+}
+
+.fTitle{
+    text-align: center;
+    font-family:'poppins' , sans-serif;
+    color: rgba(27, 29, 31, 0.774);
+    
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    height: 30px;
+    outline: none;
+    width: 100%;
+    
+}
+
+.inputLabel{
+    font-size: 13px;
+    font-family:'poppins' , sans-serif ;
+    font-weight: 400;
+    color: rgb(94, 92, 92);
+
+}
+
+::placeholder{
+    font-size: 14px;
+    color: rgba(173, 173, 173, 0.808);
+}
+.inputContainer{
+    width: 350px;
+    margin: auto;
+}
+
+
+    
+
+
+#services{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.808);
+    border: none;
+    margin-left: -4;
+    height: 30px;
+    width: 100%;
+    font-weight: 600;
+    border-bottom: 1px solid gainsboro;
+}
+#Budget{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.808);
+    border: none;
+    margin-left: -4;
+    height: 30px;
+    width: 100%;
+    font-weight: 600;
+    border-bottom: 1px solid gainsboro;
+}
+
+.select::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: var(--select-arrow);
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  }
+.inputLabel1{
+    margin-top: 12px;
+    font-size: 13px;
+    font-family:'poppins' , sans-serif ;
+    font-weight: 400;
+    color: rgb(94, 92, 92);
+}
+
+#subject{
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    width: 100%;
+}
+#subject::placeholder{
+    font-size: 14px;
+    color: rgba(173, 173, 173, 0.808);
+}
